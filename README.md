@@ -150,6 +150,9 @@ Location: `/Users/user/Projects/GhostSpell/`
   - `phi4-mini:latest` (1.6GB) - Fast, no thinking
   - `qwen2.5:1.8b` (1.1GB) - Fast, good grammar
   - `gemma2:2b` (1.6GB) - Fast, direct output
+  - `kimi-k2.5:cloud` (cloud) - Fallback option
+
+  **Fallback:** If phi4-mini isn't available, GhostSpell automatically falls back to kimi-k2.5:cloud
 
 ---
 
