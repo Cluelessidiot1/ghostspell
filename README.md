@@ -9,9 +9,9 @@ Select text anywhere → Hit hotkey → Perfect spelling. Powered by your local 
 ## What It Does
 
 - Works in **any app**: Messages, Notes, Safari, Mail, etc.
-- Uses **local AI** (gpt-oss:20b or your choice) — no data leaves your Mac
+- Uses **local AI** (phi4-mini or your choice) — no data leaves your Mac
 - Shows notifications so you know it's working
-- Fixes spelling and grammar in ~10 seconds
+- Fixes spelling and grammar in ~2 seconds
 
 ---
 
