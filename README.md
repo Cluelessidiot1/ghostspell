@@ -173,8 +173,8 @@ Apple's spell check is... not great. GhostSpell uses actual AI that:
 
 ## Built By
 
-**Miah** (with help from **Terry** 🦎)
+**CluelessIdiot** (with help from **Terry** 🦎)
 
 March 26, 2026
 
-Miah's first app/Automation project! 🎉
+First app/Automation project! 🎉
