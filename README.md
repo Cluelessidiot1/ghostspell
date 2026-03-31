@@ -143,7 +143,7 @@ Location: `/Users/user/Projects/GhostSpell/`
 - Subsequent runs are faster
 - Can switch to a different model by editing `ghostspell.sh`:
   ```bash
-  MODEL="${GHOSTSPELL_MODEL:-qwen2.5:1.8b}"
+  MODEL="${GHOSTSPELL_MODEL:-phi4-mini:latest}"
   ```
   
   **Small fast options:**
