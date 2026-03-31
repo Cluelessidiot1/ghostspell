@@ -4,7 +4,7 @@
 # Sends selected text to Ollama and returns corrected version
 
 TEXT="$1"
-MODEL="${GHOSTSPELL_MODEL:-gpt-oss:20b}"
+MODEL="${GHOSTSPELL_MODEL:-phi4-mini:latest}"
 
 if [ -z "$TEXT" ]; then
     # If no argument, read from stdin

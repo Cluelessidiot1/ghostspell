@@ -28,9 +28,9 @@ Select text anywhere → Hit hotkey → Perfect spelling. Powered by your local 
    brew install terminal-notifier
    ```
 
-3. **GhostSpell model downloaded** (optional - script uses gpt-oss:20b by default)
+3. **GhostSpell model downloaded** (optional - script uses phi4-mini:latest by default)
    ```bash
-   ollama pull gpt-oss:20b
+   ollama pull phi4-mini:latest
    ```
 
 ---
@@ -141,10 +141,15 @@ Location: `/Users/user/Projects/GhostSpell/`
 ### Slow response
 - First run loads the model (~10 seconds)
 - Subsequent runs are faster
-- Can switch to a smaller model by editing `ghostspell.sh`:
+- Can switch to a different model by editing `ghostspell.sh`:
   ```bash
-  MODEL="${GHOSTSPELL_MODEL:-minimax-m2.7:cloud}"
+  MODEL="${GHOSTSPELL_MODEL:-qwen2.5:1.8b}"
   ```
+  
+  **Small fast options:**
+  - `phi4-mini:latest` (1.6GB) - Fast, no thinking
+  - `qwen2.5:1.8b` (1.1GB) - Fast, good grammar
+  - `gemma2:2b` (1.6GB) - Fast, direct output
 
 ---
 
